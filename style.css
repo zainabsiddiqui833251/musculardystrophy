@@ -227,8 +227,7 @@ span {
     .two {
         display: inline-block;
         width: 45%;
-    
-        font-size: x-small;
+        font-size: 6px;
     }
 
 
@@ -254,4 +253,6 @@ span {
     center{
         width: 100%;
     }
+input{
+width:60%;}
 }
