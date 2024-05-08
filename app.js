@@ -1,6 +1,6 @@
 function searchContent() {
     var searchText = document.getElementById('searchInput').value.toLowerCase();
-    var elementsToSearch = document.querySelectorAll('h1, h2, h3, h4, h5, h6, p, li, span'); // Customize this selector as per your HTML structure
+    var elementsToSearch = document.querySelectorAll('h1, h2, h3, h4, h5, h6'); // Customize this selector as per your HTML structure
   
     elementsToSearch.forEach(function(element) {
       var content = element.textContent.toLowerCase();
