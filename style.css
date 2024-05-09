@@ -218,6 +218,7 @@ span {
         font-size: small;
         margin: 0%;
         padding: 0;
+        overflow-x: hidden;
     }
 
     .one {
@@ -225,7 +226,9 @@ span {
         width: 90%;
         border: none;
     }
-
+h1{
+    overflow: hidden;
+}
     .two {
         display: inline-block;
         width: 45%;
